@@ -1,0 +1,87 @@
+.work {
+  max-width: 100%;
+  min-height: 100%;
+  background-color: #df8601;
+
+  .work-header {
+    font-size: 150px;
+    color: #006e90;
+    text-shadow: 4px 4px #381d2a;
+    padding-top: 70px;
+    padding-left: 150px;
+    font-family: playfair-bold;
+  }
+
+  .div-bar {
+    height: 8px;
+    width: 70%;
+    background-color: #006e90;
+    margin-left: 145px;
+  }
+
+  .work-link-container {
+    width: 65%;
+    min-height: 275px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    .work-example-1 {
+      width: 100%;
+      min-height: 275px;
+      background-color: white;
+      box-shadow: 4px 4px #381d2a;
+      margin-bottom: 25px;
+    }
+
+    .work-example-2 {
+      width: 100%;
+      min-height: 275px;
+      background-color: white;
+      box-shadow: 4px 4px #381d2a;
+      margin-bottom: 25px;
+    }
+
+    .work-example-3 {
+      width: 100%;
+      min-height: 275px;
+      background-color: white;
+      box-shadow: 4px 4px #381d2a;
+      margin-bottom: 25px;
+    }
+
+    .work-example-4 {
+      width: 100%;
+      min-height: 275px;
+      background-color: white;
+      box-shadow: 4px 4px #381d2a;
+      margin-bottom: 25px;
+    }
+
+    .work-example-5 {
+      width: 100%;
+      min-height: 275px;
+      background-color: white;
+      box-shadow: 4px 4px #381d2a;
+      //   margin-bottom: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .work {
+    .work-header {
+      text-shadow: 2px 2px #381d2a;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 80px;
+      padding-top: 70px;
+      padding-left: 0;
+      font-family: playfair-bold;
+    }
+
+    .div-bar {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+}

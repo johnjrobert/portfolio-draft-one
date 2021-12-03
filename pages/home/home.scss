@@ -1,0 +1,110 @@
+.home {
+  max-width: 100%;
+  min-height: 100%;
+  background-color: #381d2a;
+
+  .home-header {
+    font-size: 150px;
+    color: #df8601;
+    text-shadow: 4px 4px #006e90;
+    padding-top: 70px;
+    padding-left: 150px;
+    font-family: playfair-bold;
+  }
+
+  .sub-header-one {
+    font-family: ep-bold;
+    color: #df8601;
+    text-shadow: 4px 4px #006e90;
+    padding-left: 153px;
+    font-size: 60px;
+    margin-top: 30px;
+  }
+
+  .sub-header-two {
+    font-family: ep-bold;
+    color: #df8601;
+    text-shadow: 4px 4px #006e90;
+    padding-left: 153px;
+    font-size: 60px;
+    margin-top: 30px;
+  }
+
+  .div-bar {
+    height: 8px;
+    width: 60%;
+    background-color: #9bc4bc;
+    margin: 0 auto;
+  }
+
+  .third-header {
+    padding-top: 50px;
+    font-family: ep-reg;
+    font-size: 30px;
+    color: #df8601;
+    padding-left: 153px;
+  }
+
+  .fourth-header {
+    max-width: 90%;
+    font-family: ep-reg;
+    font-size: 30px;
+    color: #df8601;
+    padding-left: 153px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 1050px;
+
+    .home-header {
+      padding-left: 0;
+      padding-top: 60px;
+      font-size: 95px;
+      margin: 0 auto;
+      text-align: center;
+      text-shadow: 4px 4px #006e90;
+    }
+
+    .sub-header-one {
+      max-width: 60%;
+      font-size: 40px;
+      padding-left: 0;
+      text-align: center;
+      text-shadow: 2px 2px #006e90;
+    }
+
+    .sub-header-two {
+      max-width: 60%;
+      font-size: 40px;
+      padding: 0;
+      text-align: center;
+      line-height: 60px;
+      text-shadow: 2px 2px #006e90;
+    }
+
+    .div-bar {
+      margin-bottom: 10px;
+    }
+
+    .third-header {
+      max-width: 60%;
+      font-size: 35px;
+      padding: 0;
+      text-align: center;
+    }
+
+    .fourth-header {
+      line-height: 40px;
+      max-width: 60%;
+      font-size: 25px;
+      padding: 0;
+      text-align: center;
+    }
+  }
+}
