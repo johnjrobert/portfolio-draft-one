@@ -12,7 +12,15 @@ function route() {
   MODEL.navToPage(pageID);
 }
 
+function hamburgerMenuToggle() {
+  $(".hamburger-menu-icon").on("click", () => {
+    $(".mobile-nav-menu").toggle();
+  });
+}
+
 function initListeners() {
+  // navClick();
+  hamburgerMenuToggle();
   route();
   $(window).on("hashchange", route);
 }

@@ -15,6 +15,43 @@
   }
 }
 
+.mobile-nav-menu {
+  display: none;
+  position: fixed;
+  background-color: #381d2a;
+  height: 100%;
+  width: 100%;
+
+  .mobile-nav-links {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .mobile-link-cont {
+      width: 50%;
+      height: 75px;
+      // background-color: #381d2a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        text-decoration: none;
+        font-family: ep-bold;
+        color: #df8601;
+        font-size: 40px;
+      }
+
+      a:hover {
+        color: #9bc4bc;
+      }
+    }
+  }
+}
+
 .nav-mobile-menu {
   display: none;
   position: fixed;
@@ -45,7 +82,13 @@
     .menu-icon {
       height: 30px;
       width: 60px;
-      background-color: #df8601;
+      // background-color: #df8601;
+
+      .hamburger-menu-icon {
+        fill: #df8601;
+        height: 30px;
+        width: 30px;
+      }
     }
   }
 }
