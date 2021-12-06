@@ -52,51 +52,13 @@ p {
   height: 100%;
   width: 100%;
 }
-.mobile-nav-menu .mobile-nav-links {
-  height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-.mobile-nav-menu .mobile-nav-links .mobile-link-cont {
-  width: 50%;
-  height: 75px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.mobile-nav-menu .mobile-nav-links .mobile-link-cont a {
-  text-decoration: none;
-  font-family: ep-bold;
-  color: #df8601;
-  font-size: 40px;
-}
-.mobile-nav-menu .mobile-nav-links .mobile-link-cont a:hover {
-  color: #9bc4bc;
-}
 
 .nav-mobile-menu {
   display: none;
   position: fixed;
   width: 100%;
   height: 75px;
+  background-color: #381d2a;
 }
 .nav-mobile-menu .mobile-container {
   margin: 0 auto;

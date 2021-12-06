@@ -9,7 +9,32 @@ function route() {
     pageID = pageID;
   }
 
+  navChangeColor(pageID);
   MODEL.navToPage(pageID);
+}
+
+function navChangeColor(pageID) {
+  if (pageID == "home") {
+    $(".bar").css("background-color", "#df8601");
+    $(".nav-rb-logo").css("fill", "#df8601");
+    $(".home-icon").css("background-color", "#df8601");
+    $(".nav-mobile-menu").css("background-color", "#381d2a");
+  } else if (pageID == "about") {
+    $(".bar").css("background-color", "#9bc4bc");
+    $(".nav-rb-logo").css("fill", "#9bc4bc");
+    $(".home-icon").css("background-color", "#9bc4bc");
+    $(".nav-mobile-menu").css("background-color", "#006e90");
+  } else if (pageID == "contact") {
+    $(".bar").css("background-color", "#381d2a");
+    $(".nav-rb-logo").css("fill", "#381d2a");
+    $(".home-icon").css("background-color", "#381d2a");
+    $(".nav-mobile-menu").css("background-color", "#6baa75");
+  } else if (pageID == "work") {
+    $(".bar").css("background-color", "#006e90");
+    $(".nav-rb-logo").css("fill", "#006e90");
+    $(".home-icon").css("background-color", "#006e90");
+    $(".nav-mobile-menu").css("background-color", "#df8601");
+  }
 }
 
 function hamburgerMenuToggle() {

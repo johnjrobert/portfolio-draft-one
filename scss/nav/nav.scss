@@ -22,34 +22,34 @@
   height: 100%;
   width: 100%;
 
-  .mobile-nav-links {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  // .mobile-nav-links {
+  //   height: 100%;
+  //   width: 100%;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   justify-content: space-evenly;
 
-    .mobile-link-cont {
-      width: 50%;
-      height: 75px;
-      // background-color: #381d2a;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  //   .mobile-link-cont {
+  //     width: 50%;
+  //     height: 75px;
+  //     // background-color: #381d2a;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
 
-      a {
-        text-decoration: none;
-        font-family: ep-bold;
-        color: #df8601;
-        font-size: 40px;
-      }
+  //     a {
+  //       text-decoration: none;
+  //       font-family: ep-bold;
+  //       color: #df8601;
+  //       font-size: 40px;
+  //     }
 
-      a:hover {
-        color: #9bc4bc;
-      }
-    }
-  }
+  //     a:hover {
+  //       color: #9bc4bc;
+  //     }
+  //   }
+  // }
 }
 
 .nav-mobile-menu {
@@ -57,7 +57,7 @@
   position: fixed;
   width: 100%;
   height: 75px;
-  //   background-color: green;
+  background-color: #381d2a;
 
   .mobile-container {
     margin: 0 auto;
